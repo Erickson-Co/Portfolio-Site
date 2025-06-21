@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>{{ name }} - Portfolio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>{{ name }}</h1>
+    <p>{{ tagline }}</p>
+
+    <h2>Projects</h2>
+    <ul>
+        {% for project in projects %}
+            <li>
+                <strong>{{ project.title }}</strong>: {{ project.description }}
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
