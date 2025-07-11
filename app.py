@@ -8,8 +8,8 @@ def home():
                            name="Jack Erickson",
                            tagline="Aspiring Developer & Innovator",
                            projects=[
-                               {"title": "Weather App", "description": "A weather dashboard using API data."},
-                               {"title": "Portfolio Website", "description": "This very site!"},
+                               {"title": "Golf Tracker App", "description": "An application created to track my Golf scores and improvement"},
+                               {"title": "Portfolio Website", "description": "A subpage to show my accomplishments and projects"},
                                {"title": "Blog CMS", "description": "A mini content management system."}
                            ])
 
